@@ -1,0 +1,22 @@
+﻿namespace AvaloniaApplication1.Android
+{
+	using Avalonia;
+	using Avalonia.Android;
+	using global::Android.App;
+	using global::Android.Content.PM;
+
+	[Activity(
+		Label = "AvaloniaApplication1.Android",
+		Theme = "@style/MyTheme.NoActionBar",
+		Icon = "@drawable/icon",
+		MainLauncher = true,
+		ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize | ConfigChanges.UiMode)]
+	public class MainActivity : AvaloniaMainActivity<App>
+	{
+		protected override AppBuilder CustomizeAppBuilder(AppBuilder builder)
+		{
+			return base.CustomizeAppBuilder(builder)
+				.WithInterFont();
+		}
+	}
+}
