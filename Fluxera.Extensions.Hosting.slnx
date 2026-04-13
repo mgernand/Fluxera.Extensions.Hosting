@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/.items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <File Path="src/Directory.Build.props" />
+    <Project Path="src/Fluxera.Extensions.Hosting.Abstractions/Fluxera.Extensions.Hosting.Abstractions.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.AspNetCore.TestHost/Fluxera.Extensions.Hosting.AspNetCore.TestHost.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.AspNetCore/Fluxera.Extensions.Hosting.AspNetCore.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.Blazor/Fluxera.Extensions.Hosting.Blazor.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.Console/Fluxera.Extensions.Hosting.Console.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.Maui/Fluxera.Extensions.Hosting.Maui.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.WindowsService/Fluxera.Extensions.Hosting.WindowsService.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting.Wpf/Fluxera.Extensions.Hosting.Wpf.csproj" />
+    <Project Path="src/Fluxera.Extensions.Hosting/Fluxera.Extensions.Hosting.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="tests/Directory.Build.props" />
+    <Project Path="tests/Fluxera.Extensions.Hosting.UnitTests/Fluxera.Extensions.Hosting.UnitTests.csproj" />
+  </Folder>
+</Solution>

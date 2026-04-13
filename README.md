@@ -1,11 +1,3 @@
-__I am leaving GitHub__
-
-Please follow me on [Codeberg](https://codeberg.org/mgernand)!  
-You can also find the sources of this repository there!
-
-Onwards! ✊
-
-
 # Fluxera.Extensions.Hosting
 A library that extends the Microsoft.Extensions.Hosting library with modular host implementations 
 for various application platforms.

@@ -351,3 +351,5 @@ MigrationBackup/
 
 # JetBrains
 .idea/
+
+nuget-apikey.txt

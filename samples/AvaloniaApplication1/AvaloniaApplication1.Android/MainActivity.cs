@@ -1,9 +1,9 @@
 ﻿namespace AvaloniaApplication1.Android
 {
+	using Android.App;
+	using Android.Content.PM;
 	using Avalonia;
 	using Avalonia.Android;
-	using global::Android.App;
-	using global::Android.Content.PM;
 
 	[Activity(
 		Label = "AvaloniaApplication1.Android",
