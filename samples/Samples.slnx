@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/.library/">
+    <Project Path="../src/Fluxera.Extensions.Hosting.Abstractions/Fluxera.Extensions.Hosting.Abstractions.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.AspNetCore.TestHost/Fluxera.Extensions.Hosting.AspNetCore.TestHost.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.AspNetCore/Fluxera.Extensions.Hosting.AspNetCore.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.Blazor/Fluxera.Extensions.Hosting.Blazor.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.Console/Fluxera.Extensions.Hosting.Console.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.Maui/Fluxera.Extensions.Hosting.Maui.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.WindowsService/Fluxera.Extensions.Hosting.WindowsService.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting.Wpf/Fluxera.Extensions.Hosting.Wpf.csproj" />
+    <Project Path="../src/Fluxera.Extensions.Hosting/Fluxera.Extensions.Hosting.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <File Path="Directory.Build.props" />
+    <Project Path="BlazorApp1/BlazorApp1.csproj" />
+    <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
+    <Project Path="MauiApp1/MauiApp1.csproj">
+      <Deploy />
+    </Project>
+    <Project Path="TestProject1/TestProject1.csproj" />
+    <Project Path="WebApplication1/WebApplication1.csproj" />
+    <Project Path="WpfApp1/WpfApp1.csproj" />
+  </Folder>
+  <Folder Name="/samples/BlazorApp2/">
+    <Project Path="BlazorApp2/BlazorApp2.Client/BlazorApp2.Client.csproj" />
+    <Project Path="BlazorApp2/BlazorApp2/BlazorApp2.csproj" />
+  </Folder>
+</Solution>
