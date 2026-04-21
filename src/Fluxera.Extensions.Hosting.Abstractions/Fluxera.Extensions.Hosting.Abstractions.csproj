@@ -30,9 +30,9 @@
 	<ItemGroup>
 		<PackageReference Include="Fluxera.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
 		<PackageReference Include="JetBrains.Annotations" Version="2025.2.4" PrivateAssets="All" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.5" />
-		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.5" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.6" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.6" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.6" />
 	</ItemGroup>
 	
 </Project>
